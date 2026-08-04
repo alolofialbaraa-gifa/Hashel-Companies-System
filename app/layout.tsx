@@ -44,8 +44,7 @@ export default function RootLayout({
             <TooltipProvider>
               <OfflineGuard /> {/* هنا يتم مراقبة الاتصال */}
               <TitleBar />
-              {/* {children} */}
-              <Sorry />
+              {children}
               <Toaster />
             </TooltipProvider>
           </AuthProvider>
