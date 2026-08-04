@@ -24,9 +24,9 @@ export default function PaymentRequiredPage() {
 
         <div className="relative space-y-8 rounded-3xl border border-white/20 bg-white/80 p-8 shadow-2xl backdrop-blur-xl dark:border-slate-800 dark:bg-slate-900/80">
           {/* أيقونة الحالة والتنبيه */}
-          <div className="mx-auto flex h-24 w-24 items-center justify-center rounded-2xl bg-red-50 text-red-600 dark:bg-red-900/20 dark:text-red-400">
+          {/* <div className="mx-auto flex h-24 w-24 items-center justify-center rounded-2xl bg-red-50 text-red-600 dark:bg-red-900/20 dark:text-red-400">
             <AlertOctagon className="h-12 w-12 animate-pulse stroke-[1.5]" />
-          </div>
+          </div> */}
 
           <div className="space-y-3">
             <h1 className="text-3xl font-black text-slate-900 dark:text-white">
