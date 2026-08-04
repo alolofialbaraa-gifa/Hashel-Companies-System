@@ -30,11 +30,10 @@ export default function PaymentRequiredPage() {
 
           <div className="space-y-3">
             <h1 className="text-3xl font-black text-slate-900 dark:text-white">
-              تم إيقاف الخدمة مؤقتاً
+              جاري تفعيل النظام
             </h1>
             <p className="mx-auto max-w-sm leading-relaxed font-medium text-slate-600 dark:text-slate-300">
-              تم إغلاق الوصول إلى النظام. يرجى سداد المبلغ المتفق عليه لاستعادة
-              جميع الصلاحيات والخدمات فوراً.
+              يرجى الانتظار لعودة البيانات، لن يتم فقدان أي بيانات.
             </p>
           </div>
 
@@ -45,7 +44,7 @@ export default function PaymentRequiredPage() {
           </div> */}
 
           {/* أزرار الإجراءات */}
-          <div className="flex flex-col gap-3 sm:flex-row">
+          {/* <div className="flex flex-col gap-3 sm:flex-row">
             <button
               onClick={handleContact}
               className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-green-600 px-6 py-4 font-bold text-white shadow-lg shadow-green-600/25 transition-all hover:bg-green-700 active:scale-95"
@@ -53,7 +52,7 @@ export default function PaymentRequiredPage() {
               <PhoneCall className="h-5 w-5" />
               تواصل عبر واتساب
             </button>
-          </div>
+          </div> */}
 
           {/* تذييل بسيط */}
           <div className="pt-4 text-xs text-slate-400">
