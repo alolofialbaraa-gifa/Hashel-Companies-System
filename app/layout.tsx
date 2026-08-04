@@ -8,6 +8,7 @@ import TitleBar from "@/components/TitleBar"
 import OfflineGuard from "@/components/OfflineGuard" // استيراد المراقب
 import localFont from "next/font/local"
 import type { Metadata, Viewport } from "next"
+import Sorry from "@/app/Sorry/page"
 
 const tajawal = localFont({
   src: [
@@ -43,7 +44,8 @@ export default function RootLayout({
             <TooltipProvider>
               <OfflineGuard /> {/* هنا يتم مراقبة الاتصال */}
               <TitleBar />
-              {children}
+              {/* {children} */}
+              <Sorry />
               <Toaster />
             </TooltipProvider>
           </AuthProvider>
